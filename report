@@ -1,0 +1,33 @@
+Introduction
+On this report I will be explaining my Tamagotchi app from how I was able to design and code it. I will also explain elaborate more about the purpose of my application and how it is important to anyone who likes or loves pets. I furthermore explain the design of my application and what I have used to design it including the picture and links of where I got them from. It is also explained in my report step by step how to use the application. To understand more about the application go through the research below. 
+
+The purpose of the app is to provide users with an entertaining experience of caring for a virtual pet. The user can enjoy taking care of their pet by feeding, showering and by playing with their pet. The user has to make sure that the pet is fed, happy and healthy. The app offers fun and interactive way for users to experience the joy of owning a pet without the responsibilities of a real life one.
+For the welcome page I used a dog image I found on pinterest. 
+https://pin.it/9uXZM2YzU
+ 
+
+And for the imageview I used different pictures from pinterest 
+https://pin.it/2PwCCt5ac
+ 
+
+https://pin.it/2PwCCt5ac
+ 
+
+https://pin.it/1jH2zzwQf
+ 
+Pinterest which is an image sharing website. At the top of my application there is a textbox with a hint that says Enter age. The text is written in a sanse-serif font and in a white colour. This is where you enter your desired age that you want a historical figure generated for. Under the enter age there are two buttons one is a generate button and the other one is a clear button. Both the buttons have a purple background and the texts are written in a sans serif font in a white colour. At the bottom of the app we have a result text which is written in a sense serif font in a white colour. 
+GitHub Actions is a tool that automates tasks in the software development lifecycle, such as building, testing, and deploying code. It uses workflows, which are automated processes made up of several jobs that are carried out when triggered by events. Events can be things like creating a branch, opening a pull request, or commenting on an issue. Jobs are tasks that are executed in a workflow when an event is triggered, and a workflow can have multiple jobs running in parallel. Actions are used to perform complex tasks that you may import into workflows, such as sending a notification email or setting up the authentication to your cloud provider. Runners are servers that run your workflows when they're triggered. GitHub Actions can help you automate nearly every aspect of your application development processes, including building and publishing packages, deploying projects, automating tasks and processes on GitHub, and managing issues and pull requests. To get started with GitHub Actions, you can create a new branch for a commit and start a pull request, then commit the workflow file to a branch in your repository to trigger the push event and run your workflow. You can view your workflow results on GitHub.com by navigating to the main page of the repository, clicking on the Actions tab, and selecting the workflow you want to display.GitHub provides preconfigured starter workflows that you can customize to create your own continuous integration workflow. These starter workflows can be used as a starting place to build your custom workflow or used as is. For more complex features of GitHub Actions, you can see detailed examples that explain how to test your code on a runner, access the GitHub CLI, and use advanced features such as concurrency and test matrices. If you want to certify your proficiency in automating workflows and accelerating development with GitHub Actions, you can earn a GitHub Actions certificate with GitHub Certifications. To learn more about GitHub Actions, you can read through the GitHub Actions Docs page, which provides more information about how to use GitHub Actions to accelerate development workflows, continuous integration, deploying with GitHub Actions, and example workflows that demonstrate the CI/CD features of the tool.
+
+
+
+
+
+
+
+
+
+
+Reference 
+Android ImageButton - How to change the image when button is clicked?. November 11, 2015. [Online]. Available at: 
+https://stackoverflow.com/questions/24755849/android-imagebutton-how-to-change-the-image-when-button-is-clicked
+ [Accessed 26 May 2024].
