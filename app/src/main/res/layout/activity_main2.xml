@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Feed" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/btnShower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPlay"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Shower" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Back" />
+
+    <EditText
+        android:id="@+id/tvHunger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/tvHappy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHunger"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/tvHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHappy"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHealth"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/default_image" />
+
+</RelativeLayout>
